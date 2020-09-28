@@ -9,3 +9,11 @@
  border: 1px solid pink;
  background-color: red;
 }
+
+.box-top{
+ margin-top: 50px;
+}
+
+.box-bottom{
+ margin-bottom: 20px;
+}
