@@ -1,7 +1,21 @@
 
+
+/* header layout */
+.nav-header{
+ background-color:  #443333;
+}
+
+.title{
+ color: white;
+}
 /* Utilyties */
+/* tipography */
 
 
+
+li{
+ display: inline-block;
+}
 /* box */
 .box{
  text-align: center;
