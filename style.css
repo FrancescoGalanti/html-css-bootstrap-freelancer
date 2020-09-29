@@ -1,12 +1,35 @@
 
 
 /* header layout */
-.nav-header{
- background-color:  #443333;
+.main-header .navbar{
+ background: #2a2c7a;
+ border: none;
+ border-radius: 0;
 }
 
-.line-heigth{
- line-height: 75px;
+.main-header .navbar-brand{
+ height: 80px;
+ line-height: 80px;
+ padding: 0 15px;
+ text-transform: uppercase;
+ font-size: 26px;
+ color: #fff;
+}
+
+.main-header .navbar-nava > li > a{
+ line-height: 50px;
+ padding: 0 15px;
+ color: #fff;
+ transition: background .4s
+}
+
+.main-header .navbar-nav > li > a:hover,
+.main-header .navbar-nav > .actual > a{
+ background: rgba(0, 0, 0, 0.2);
+}
+
+.main-header .navbar-nav > li > a:hover{
+ background: rgba(0, 0, 0, 0.5);
 }
 
 /* Utilyties */
@@ -14,20 +37,13 @@
 
 
 
-li{
- display: inline-block;
-}
 
-li:hover{
- color: #1abc9c;
-}
 
-a{
- text-decoration: none;
-}
+
+
 
 h2,
-li{
+{
  color: white;
 }
 
