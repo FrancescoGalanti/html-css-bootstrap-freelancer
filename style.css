@@ -1,6 +1,7 @@
 
 
 /* header layout */
+<<<<<<< HEAD
 .main-header .navbar{
  background: #2a2c7a;
  border: none;
@@ -32,6 +33,8 @@
 .main-header .navbar-nav > .actual > a:hover {
  background: rgba(0, 0, 0, 0.5);
 }
+=======
+>>>>>>> main
 
 
 /* utilyties */
