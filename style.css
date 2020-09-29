@@ -16,15 +16,15 @@
  color: #fff;
 }
 
-.main-header .navbar-nava > li > a{
+.main-header .navbar-nav > li > a {
  line-height: 50px;
  padding: 0 15px;
  color: #fff;
- transition: background .4s
+ transition: background .4s;
 }
 
 .main-header .navbar-nav > li > a:hover,
-.main-header .navbar-nav > .actual > a{
+.main-header .navbar-nav > .actual > a {
  background: rgba(0, 0, 0, 0.2);
 }
 
