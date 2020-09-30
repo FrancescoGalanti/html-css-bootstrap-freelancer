@@ -55,6 +55,50 @@ h6{
  font-weight: 700;
 }
 
+h1{
+ text-transform: uppercase;
+ font-size: 60px;
+}
+
+h2{
+ text-transform: uppercase;
+ font-size: 50PX;
+}
+
+P{
+ font-size: 20px;
+}
+
+/* buttons */
+.btn{
+ padding: 16px 25px;
+ font-size: 22px;
+ border-radius: 7px;
+ transition: background .4s;
+ border-color: transparent;
+}
+
+.btn-primary{
+ background: #1abc9c;
+}
+
+.btn-primary:hover{
+ background: #3d8f7f;
+}
+
+.btn-outline{
+ color: #fff;
+ border: 2px solid;
+}
+
+.btn-outline:hover{
+ background: #fff;
+ border-color: #fff;
+}
+
+.btn .icon-left i{
+ margin-right: 8px;
+}
 /* layout */
 section{
  padding-top: 100px;
@@ -64,6 +108,10 @@ section{
 .section-green{
  background:#1abc9c;
  color: #fff;
+}
+
+.mb-30{
+ margin-bottom: 30px;
 }
 
 /* jumbotron */
@@ -144,4 +192,14 @@ section{
 
 .portfolio-item:hover .portfolio-layover{
  opacity: 1;
+}
+
+/* about */
+
+.about .left{
+ padding-right: 15px;
+}
+
+.about .right{
+ padding-left: 15px;
 }
