@@ -241,3 +241,85 @@ section{
 .contacts ::placeholder{
  color: #6c757d;
 }
+
+/* foooter */
+.main-footer{
+ color: #fff;
+}
+
+.main-footer .link-green{
+ color: #1abc9c;
+}
+
+.main-footer .link-green{
+ color: #3d8f7f;
+}
+
+.footer-pre{
+ padding: 60px 0;
+ background: #2c3e50;
+}
+
+.footer-box .socials a {
+ display: inline-block;
+ width: 55px;
+ height: 55px;
+ line-height: 52px;
+ font-size: 20px;
+ color: #fff;
+ border-radius: 50%;
+ border-radius: 2px solid;
+}
+
+.footer-sub{
+ padding: 20px 0;
+ background: #1a252f;
+}
+
+.footer-sub p {
+ margin: 0;
+ font-size: 12px;
+}
+
+/* SOTTO I DESKTOP */
+
+@media screen and (max-width: 991px) {
+ .footer-box{
+   margin-bottom: 30px;
+ }
+}
+/* SOTTO TABLET */
+@media screen and (max-width: 767px) {
+   /* layout */
+   section{
+     padding: 40px 0;
+   }
+
+   /* typo */
+   h1{
+     font-size: 35px;
+   }
+
+   h2{
+     font-size: 25px;
+   }
+
+   h3{
+     font-size: 18px;
+   }
+
+   /* header */
+   .main-header .navbar-brand{
+     font-size: 19px;
+   }
+
+   /* about */
+   .about .left{
+     padding-right: 0;
+   }
+
+   .about.right{
+    padding-right: 0;
+   }
+
+}
