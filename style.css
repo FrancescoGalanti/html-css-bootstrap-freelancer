@@ -268,8 +268,16 @@ section{
  font-size: 20px;
  color: #fff;
  border-radius: 50%;
- border-radius: 2px solid;
+ border: 2px solid;
+ transition: .5s;
 }
+
+.footer-box .socials a:hover{
+ background-color: white;
+ color: black;
+ border-color: white;
+}
+
 
 .footer-sub{
  padding: 20px 0;
